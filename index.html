@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Nav Bar</title>
+    <!--- Link Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!--- Link  -->
+    <script src="https://kit.fontawesome.com/25937a07f6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    
+    <section class="header">
+        <nav>
+          <a href="index.html"><img src="img/Logo.png" alt="Logo"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="portfolio.html">PORTFOLIO</a></li>
+              <li><a href="history.html">HISTORY</a></li>
+              <li><a href="reviews.html">REVIEWS</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="textbox">
+          <h1>Successful<br>Dance<br>Break</h1>
+          
+          
+          
+          <div class="hero-btn-3">
+          </div>
+          
+        </div>  
+      </section>
+  
+</body>
+<script>
+   let navLinks = document.getElementById("navLinks"); 
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-350px";
+  }
+</script>
+</html>
