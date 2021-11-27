@@ -12,41 +12,45 @@
 </head>
 <body>
     
-    
-    <section class="header">
-        <nav>
-          <a href="index.html"><img src="img/Logo.png" alt="Logo"></a>
-          <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" onclick="hideMenu()"></i>
-            <ul>
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="portfolio.html">PORTFOLIO</a></li>
-              <li><a href="history.html">HISTORY</a></li>
-              <li><a href="reviews.html">REVIEWS</a></li>
-              <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-          </div>
-          <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <div class="textbox">
-          <h1>Successful<br>Dance<br>Break</h1>
-          
-          
-          
-          <div class="hero-btn-3">
-          </div>
-          
-        </div>  
-      </section>
+  <section class="sub-header">
+    <nav>
+        <div class="nav-text">SideBar Tutorial</div>
+      <div class="hamburger">
+          <i class="fas fa-bars"></i>
+      </div>
+         
   
+
+  <div class="backdrop2"></div>
+  <div class="sidebar2">
+    
+      
+      <div class="sidebar_list">
+          <li class="sidebar_item">
+              <a href="index.html">Home</a>
+          </li>
+          <li class="sidebar_item">
+              <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="sidebar_item">
+              <a href="history.html">History</a>
+          </li>
+          <li class="sidebar_item">
+              <a href="reviews.html">Reviews</a>
+          </li>
+          <li class="sidebar_item">
+              <a href="contact.html">Contact</a>
+          </li>
+      </div>
+    </nav>
+  </div>
+
+      <h1>Reviews</h1>
+  </section>
+
 </body>
-<script>
-   let navLinks = document.getElementById("navLinks"); 
-  function showMenu(){
-    navLinks.style.right = "0";
-  }
-  function hideMenu(){
-    navLinks.style.right = "-350px";
-  }
+<script src="script.js">
+  
+
 </script>
 </html>
